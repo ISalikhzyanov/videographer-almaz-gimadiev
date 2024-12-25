@@ -5,7 +5,7 @@ import AppRouter from "./routing/AppRouter.tsx";
 import './App.css'
 
 createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
+  <BrowserRouter basename='videographer-almaz-gimadiev'>
     <AppRouter />
   </BrowserRouter>,
 )
