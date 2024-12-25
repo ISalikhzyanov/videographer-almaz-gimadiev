@@ -1,0 +1,29 @@
+.home-page {
+  &__image {
+    object-fit: contain;
+  }
+
+  &__logo {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 800;
+  }
+
+  &__description-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    word-break: break-word;
+
+    &.header {
+      font-size: 5rem;
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    &.description {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+}

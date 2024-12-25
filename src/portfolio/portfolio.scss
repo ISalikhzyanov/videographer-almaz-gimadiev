@@ -1,0 +1,27 @@
+.portfolio{
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+
+  &__categories{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  &__category{
+    padding: 20px 0;
+  }
+
+  &__link{
+    text-decoration: none;
+    background: #1D1D1D;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #F2F2F2;
+  }
+}
