@@ -19,7 +19,9 @@ function Portfolio() {
                             все «модное сейчас» станет привычным или вовсе забудется потом! Моя же цель сделать вашу свадьбу и память о
                             ней не подвластной временным веяниям и сохранить их на все времена! Ведь ЛЮБОВЬ всегда остаётся в моде!
                         </p>
-                        <Link className='portfolio__link' to="/weddings">Узнать подробнее</Link>
+                        <Link className='portfolio__link' to="/portfolio/marriages">
+                            <button type="button" className="btn btn-dark">Узнать подробнее</button>
+                        </Link>
                     </div>
                     <div className='portfolio__category'>
                         <h3>Реклама (съемка для бизнеса)</h3>
@@ -28,7 +30,9 @@ function Portfolio() {
                             А чем именно привлечь Ваших клиентов? Думаю здесь ответ очевиден.
                             То, что видеоконтент - это один из мощнейших инструментов для привлечения клиентов знает любой маркетолог.
                         </p>
-                        <Link className='portfolio__link' to="/for-business">Узнать подробнее</Link>
+                        <Link className='portfolio__link' to="/for-business">
+                            <button type="button" className="btn btn-dark">Узнать подробнее</button>
+                        </Link>
                     </div>
                     <div className='portfolio__category'>
                         <h3>Музыкальные клипы</h3>
@@ -37,7 +41,9 @@ function Portfolio() {
                             Десятки известных артистов и продюсерских студий  доверили мне это дело и остались довольны.
                             Снять качественный музыкальный клип - это все равно что снять короткометражный фильм.
                         </p>
-                        <Link className='portfolio__link' to="/music-videos">Узнать подробнее</Link>
+                        <Link to="/music-videos">
+                            <button type="button" className="btn btn-dark">Узнать подробнее</button>
+                        </Link>
                     </div>
                 </div>
             </div>

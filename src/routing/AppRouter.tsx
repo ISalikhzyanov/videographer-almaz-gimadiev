@@ -12,13 +12,13 @@ function AppRouter() {
                     <span>AG</span>
                     <div className='desktop__links'>
                         <Link className={router.pathname === '/' ? 'desktop__active' : 'desktop__link'}
-                              to="/" defaultValue="/">Home</Link>
+                              to="/" defaultValue="/">Главная</Link>
                         <Link
-                            className={router.pathname === '/portfolio' ? 'desktop__active' : 'desktop__link'}
-                            to="/portfolio">Portfolio</Link>
+                            className={router.pathname.includes('/portfolio') ? 'desktop__active' : 'desktop__link'}
+                            to="/portfolio">Портфолио</Link>
                         <Link
                             className={router.pathname === '/contacts' ? 'desktop__active' : 'desktop__link'}
-                            to="/contacts">Contacts</Link>
+                            to="/contacts">Контакты</Link>
                     </div>
                 </div>
             </div>}

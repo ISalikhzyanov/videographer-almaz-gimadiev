@@ -5,6 +5,7 @@ interface VideoModalProps {
     isOpen: boolean;
     onOk: () => void;
     onCancel: () => void;
+    link: string;
 }
 
 function VideoModal(props: VideoModalProps) {
